@@ -5,6 +5,7 @@ class Types_of_Numbers
     public static void main(String[] args)
     {
         Scanner c=new Scanner(System.in);
+        System.out.println("Enter a number: ");
         long x=c.nextLong();
         long i,sum=0;
         for(i=1;i*i<x;i+=1)
