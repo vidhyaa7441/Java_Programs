@@ -4,7 +4,9 @@ class amicable_numbers
     public static void main(String[] args)
     {
         Scanner c=new Scanner(System.in);
+        System.out.println("Enter first number: ");
         int num1=c.nextInt();
+        System.out.println("Enter second number: ");
         int num2=c.nextInt();
         int i,sum1=1,sum2=1;
         for(i=1;i*i<num1;i+=1)
@@ -25,6 +27,10 @@ class amicable_numbers
         if(sum1==num2 && sum2==num1)
         {
             System.out.print("Ambicable Pair");
+        }
+        else
+        {
+            System.out.println("Not Ambicable paris");
         }
     }
 }
