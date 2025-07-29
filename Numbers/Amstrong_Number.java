@@ -4,6 +4,7 @@ class Amstrong_Number
     public static void main(String[] args)
     {
         Scanner c=new Scanner(System.in);
+        System.out.println("Enter a number: ");
         int num=c.nextInt();
         int count=0;
         int temp=num;
