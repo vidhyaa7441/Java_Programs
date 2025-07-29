@@ -4,6 +4,7 @@ class powersoftwo
     public static void main(String[] args)
     {
         Scanner c=new Scanner(System.in);
+        System.out.println("Enter a Number: ");
         int x=c.nextInt();
         while(x%2==0)
         {
